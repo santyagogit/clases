@@ -1,4 +1,22 @@
 {
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@email.com",
+      "password": "admin",
+      "name": "Admin",
+      "accessToken": "admin-token",
+      "role": "ADMIN"
+    },
+    {
+      "id": 2,
+      "email": "employee@email.com",
+      "password": "employee",
+      "name": "Employee",
+      "accessToken": "employee-token",
+      "role": "EMPLOYEE"
+    }
+  ],
   "courses": [
     {
       "id": "1",

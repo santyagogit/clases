@@ -25,6 +25,11 @@ const routes: Routes = [
       import('./pages/users/users.module').then((m) => m.UsersModule),
   },
   {
+    path: 'counter',
+    loadChildren: () =>
+      import('./pages/counter/counter.module').then((m) => m.CounterModule),
+  },
+  {
     path: '**',
     redirectTo: 'home',
   }

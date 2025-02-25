@@ -41,3 +41,7 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Commits
+src/app/modules/dashboard/pages/counter/
+src/app/store/counter/
